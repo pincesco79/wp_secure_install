@@ -1,0 +1,129 @@
+    1  clear
+    2  history
+    3  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+    4  sudo a2ensite giuseppe-maio.it.conf
+    5  sudo systemctl reload apache2
+    6  sudo systemctl status apache2.service
+    7  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+    8  sudo systemctl status apache2.service
+    9  clear
+   10  sudo systemctl status apache2.service
+   11  sudo a2enmod rewrite
+   12  sudo systemctl reload apache2
+   13  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+   14  sudo mv /var/www/html/giuseppe-maio.it/ /var/www/html/
+   15  sudo mv -r /var/www/html/giuseppe-maio.it/ /var/www/html/
+   16  sudo mv /var/www/html/giuseppe-maio.it/ /var/www/html/
+   17  sudo mv /var/www/html/giuseppe-maio.it/* /var/www/html/
+   18  ls
+   19  ls /var/www/html/
+   20  exit
+   21  hostname
+   22  sudo nano 
+   23  sudo nano   /etc/sysconfig/network
+   24  sudo hostnamectl set-hostname giuseppe-maio.it
+   25  sudo reboot
+   26  ls /var/www/html/giuseppe-maio.it/
+   27  rm -r /var/www/html/giuseppe-maio.it/
+   
+    1  clear
+    2  history
+    3  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+    4  sudo a2ensite giuseppe-maio.it.conf
+    5  sudo systemctl reload apache2
+    6  sudo systemctl status apache2.service
+    7  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+    8  sudo systemctl status apache2.service
+    9  clear
+   10  sudo systemctl status apache2.service
+   11  sudo a2enmod rewrite
+   12  sudo systemctl reload apache2
+   13  sudo nano /etc/apache2/sites-available/giuseppe-maio.it.conf
+   14  sudo mv /var/www/html/giuseppe-maio.it/ /var/www/html/
+   15  sudo mv -r /var/www/html/giuseppe-maio.it/ /var/www/html/
+   16  sudo mv /var/www/html/giuseppe-maio.it/ /var/www/html/
+   17  sudo mv /var/www/html/giuseppe-maio.it/* /var/www/html/
+   18  ls
+   19  ls /var/www/html/
+   20  exit
+   21  hostname
+   22  sudo nano 
+   23  sudo nano   /etc/sysconfig/network
+   24  sudo hostnamectl set-hostname giuseppe-maio.it
+   25  sudo reboot
+   26  ls /var/www/html/giuseppe-maio.it/
+   27  rm -r /var/www/html/giuseppe-maio.it/
+   28  sudo rm -r /var/www/html/giuseppe-maio.it/
+   29  ls /var/www/html/giuseppe-maio.it/
+   30  rm -r /var/www/html/
+   31  rm -r /var/www/
+   32  cd
+   33  history >> hist_30_03_2020.txt
+   34  clear
+   35  sudo apt install git
+   36  git clone https://github.com/letsencrypt/letsencrypt.git
+   37  ls
+   38  sudo nano /etc/issue
+   39  sudo ./certbot-auto certonly --debug --webroot -w /var/www/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   40  sudo apt install certbot
+   41  clear
+   42  sudo ./certbot-auto certonly --debug --webroot -w /var/www/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   43  certbot
+   44  sudo certbot-auto certonly --debug --webroot -w /var/www/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   45  sudo apt install certbot-auto
+   46  certbot-auto
+   47  wget https://dl.eff.org/certbot-auto
+   48  sudo mv certbot-auto /usr/local/bin/certbot-auto
+   49  rm /usr/local/bin/certbot-auto
+   50  sudo rm /usr/local/bin/certbot-auto
+   51  clear
+   52  wget https://dl.eff.org/certbot-auto
+   53  sudo mv certbot-auto /usr/local/bin/certbot-auto
+   54  sudo chown root /usr/local/bin/certbot-auto
+   55  sudo chmod 0755 /usr/local/bin/certbot-auto
+   56  /usr/local/bin/certbot-auto --help
+   57  ./certbot-auto
+   58  sudo /usr/local/bin/certbot-auto --debug --webroot -w /var/www/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   59  ls
+   60  cd letsencrypt/
+   61  sudo /usr/local/bin/certbot-auto --debug --webroot -w /var/www/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   62  cat /var/log/letsencrypt
+   63  sudo cat /var/log/letsencrypt
+   64  sudo cat /var/log/letsencrypt/
+   65  ls /var/log/letsencrypt/
+   66  sudo ls /var/log/letsencrypt/
+   67  sudo cat /var/log/letsencrypt/letsencrypt.log
+   68  clear
+   69  sudo /usr/local/bin/certbot-auto certonly --debug --webroot -w /var/wwww/html -d giuseppe-maio.it -d www.giuseppe-maio.it
+   70  clear
+   71  certbot
+   72  sudo certbot
+   73  clear
+   74  sudo apt-get update
+   75  sudo apt-get install software-properties-common
+   76  sudo add-apt-repository universe
+   77  sudo add-apt-repository ppa:certbot/certbot
+   78  sudo apt-get update
+   79  sudo apt-get install certbot python-certbot-apache
+   80  sudo certbot --apache
+   81  clear
+   82  sudo certbot certonly --apache
+   83  clear
+   84  sudo certbot certonly --apache
+   85  clear
+   86  sudo certbot certonly --apache
+   87  clear
+   88  sudo nano /etc/httpd/conf.d/ssl.conf
+   89  ls /etc/letsencrypt/live/giuseppe-maio.it/
+   90  sudo ls /etc/letsencrypt/live/giuseppe-maio.it/
+   91  history new_hist_30_03_2020.tct
+   92  history >> new_hist_30_03_2020.txt
+   
+   28  sudo rm -r /var/www/html/giuseppe-maio.it/
+   29  ls /var/www/html/giuseppe-maio.it/
+   30  rm -r /var/www/html/
+   31  rm -r /var/www/
+   32  cd
+   33  history >> hist_30_03_2020.txt
+   
+   
